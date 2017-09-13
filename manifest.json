@@ -14,7 +14,7 @@
 		"storage"
 	],
 	"content_scripts": [{
-		"matches": ["*://*.stackoverflow.com/*", "*://*.stackexchange.com/*", "*://github.com/*"],
+		"matches": ["*://*.stackoverflow.com/*", "*://*.stackexchange.com/*", "*://github.com/*", "*://dev.to/*", "*://reddit.com/r/*"],
 		"js": ["scripts/stackoverflow/inject.js"],
 		"run_at": "document_end"
 	}],
